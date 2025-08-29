@@ -4,8 +4,8 @@ import argparse
 
 from morl_baselines.multi_policy.capql.capql import CAPQL
 from morl_baselines.multi_policy.envelope.envelope import Envelope
-from morl_baselines.multi_policy.gpi_pd.gpi_pd import GPILS, GPIPD
-from morl_baselines.multi_policy.gpi_pd.gpi_pd_continuous_action import (
+#from morl_baselines.multi_policy.gpi_pd.gpi_pd import GPILS, GPIPD
+#from morl_baselines.multi_policy.gpi_pd.gpi_pd_continuous_action import (
     GPILSContinuousAction,
     GPIPDContinuousAction,
 )
@@ -21,10 +21,10 @@ from morl_baselines.multi_policy.pgmorl.pgmorl import PGMORL
 ALGOS = {
     "pgmorl": PGMORL,
     "envelope": Envelope,
-    "gpi_pd_continuous": GPIPDContinuousAction,
-    "gpi_pd_discrete": GPIPD,
-    "gpi_ls_continuous": GPILSContinuousAction,
-    "gpi_ls_discrete": GPILS,
+    #"gpi_pd_continuous": GPIPDContinuousAction,
+    #"gpi_pd_discrete": GPIPD,
+    #"gpi_ls_continuous": GPILSContinuousAction,
+    #"gpi_ls_discrete": GPILS,
     "capql": CAPQL,
     "mpmoql": MPMOQLearning,
     "pcn": PCN,
