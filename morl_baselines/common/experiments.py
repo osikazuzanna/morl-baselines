@@ -6,9 +6,9 @@ from morl_baselines.multi_policy.capql.capql import CAPQL
 from morl_baselines.multi_policy.envelope.envelope import Envelope
 #from morl_baselines.multi_policy.gpi_pd.gpi_pd import GPILS, GPIPD
 #from morl_baselines.multi_policy.gpi_pd.gpi_pd_continuous_action import (
-    GPILSContinuousAction,
-    GPIPDContinuousAction,
-)
+    #GPILSContinuousAction,
+    #GPIPDContinuousAction,
+#)
 from morl_baselines.multi_policy.morld.morld import MORLD
 from morl_baselines.multi_policy.multi_policy_moqlearning.mp_mo_q_learning import (
     MPMOQLearning,
